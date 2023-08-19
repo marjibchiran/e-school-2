@@ -1,0 +1,89 @@
+/*font-links*/
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+/*common css start*/
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: green #000000;
+}
+
+/*common css end*/
+
+/*header start*/
+header{
+background-color: #F0FFF0!important;
+padding: 15px 0;
+}
+.c-nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+	color: #000000!important;
+	padding: 0 25px!important;
+}
+.menu ul li a:hover{
+	color: #FD511A!important;
+}
+.btn-cm{
+	color: white!important;
+	background-color: #21B573;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 33px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn-cm:hover{
+	color: white!important;
+	background-color: #FD511A!important;
+}
+.btn-sign{
+	width: 105px;
+	height: 45px;
+	margin-left: 15px;
+}
+.btn-cm:active{
+	background-color: #FD511A!important;
+}
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-color:#F0FFF0;
+	padding-bottom: 65px;
+}
+.b-text{
+}
+.p-text{
+	color: #FD511A;
+}
+.h1-text{
+	padding-right: 40px;
+	margin:10px 0 20px;
+	color: #00000;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 70px;
+}
+.h1-text span{
+	color: #21B573;
+}
+.p2-text{
+	line-height: 36px;
+}
+.btn-link{
+	margin-top: 20px;
+	width: 155px;
+	height: 45px;
+}
+.b-image{}
+.b-image img{
+	width: 100%;
+}
+
+/*banner end*/
